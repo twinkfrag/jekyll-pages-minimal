@@ -8,6 +8,7 @@ JekyllによるGitHub Pagesのテスト
 ## 本プロジェクトの構成
 - `index.md` -> `_layouts/default.html` -> `/index.html`
 - `folder/page2.md` -> `_layouts/default.html` -> permalink設定により`/page2.html`
+- ページやテンプレートでは，liquid templateを使って`{{ site.title }}`のようにメタデータを呼び出したり，`{%- include hoge.html -%}`のように命令を実行する
 
 ## ref
 - https://docs.github.com/ja/pages/setting-up-a-github-pages-site-with-jekyll/

@@ -8,5 +8,5 @@
 
 - あとは普通にmdを書けばOK
 - link: [page2](page2)
-- image: ![img](img.png)
+- image: ![img](folder/img.png)
 - github pagesの仕様で，拡張子`.html`はなくても名前解決してれる
