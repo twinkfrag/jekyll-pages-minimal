@@ -1,0 +1,19 @@
+domain: www.twinkfrag.net
+url: https://www.twinkfrag.net/jekyll-pages-minimal
+
+title: jekyll-pages-minimal
+plugins:
+  - jekyll-seo-tag
+  - github-pages
+
+layout: default
+
+exclude: # excludes dotfiles by default
+  - "Gemfile"
+  - "Gemfile.lock"
+  - "node_modules"
+  - "vendor/bundle/"
+  - "vendor/cache/"
+  - "vendor/gems/"
+  - "vendor/ruby/"
+  - "README.md"
